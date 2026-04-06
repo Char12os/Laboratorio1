@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #F297A0, #F9D0CE, #B6BB79, #F3EBD8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Formulario{
+    background-color: #F3EBD8;
+    padding: 30px;
+    border-radius: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2) ;
+}
+.Formulario input{
+    width: 90%;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 10px;
+    border-color: #F297A0;
+}
+.Formulario button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color:#B6BB79 ;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.Formulario h2{
+    color: #F297A0;
+}
