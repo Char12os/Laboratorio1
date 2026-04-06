@@ -8,7 +8,8 @@
 </head>
 <body>
     <form class="Formulario" method="POST" action="">
-        <input type="number" name="pulgadas" min="1" step="any" value="<?php echo isset($_POST['pulgadas']) ? $_POST['pulgadas'] : ''; ?>">
+       <h2>Pulgadas a cm</h2>
+        <input type="number" name="pulgadas"placeholder= "Ingrese pulgadas"min="1" step="any" value="<?php echo isset($_POST['pulgadas']) ? $_POST['pulgadas'] : ''; ?>">
         <br>
         <button type= "submit">Calcular</button>
         <button type="button" onclick="window.location.href=''"> Borrar </button>
@@ -20,7 +21,7 @@
 
         //Validacion
       if($pulgadas <=0){
-        echo "<br>Ingrese un numero"; 
+        echo "<br>Ingrese un número"; 
       }  else{
         //Formula de pulgadas a cm
         $cm = $pulgadas * 2.54;
